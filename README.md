@@ -24,6 +24,7 @@ A proposta do RepArte nasce da necessidade de um espaço virtual que ofereça co
 - Karina Barboza da Silva  
 - Laís de Souza Ferro  
 - Luis Gustavo Santos
+- Sophia Rocha Ferreira
 
 ## 📘 Licença
 
