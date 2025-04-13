@@ -7,7 +7,6 @@ Bruna Maria de Melo Souza
 Karina Barboza da Silva  
 Laís de Souza Ferro  
 Luis Gustavo Santos
-
 Sophia Rocha Ferreira
 
 Este projeto, incluindo seu código-fonte, layout, identidade visual e demais recursos, é de uso exclusivo dos integrantes do grupo de TCC supracitados.
