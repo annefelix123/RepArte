@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="criarID(8)">clique</button>
+</body>
+
+<script type="text/javascript">
+
+    function criarID(tamanho) {
+
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        let resultado = "";
+
+        for (let i = 0; i < tamanho; i++) 
+        {
+
+            resultado += chars.charAt(Math.floor(Math.random() * chars.length));
+    
+        }
+        return resultado;
+
+        if(resultado = tamanho){
+
+            document.write(resultado)
+        }
+
+    }
+
+
+
+
+    /*       while (i < tamanho) {
+   
+               for (let i = 0; i = tamanho - 3; i++) {
+   
+   
+                   resultado += "-"
+   
+   
+               }
+   
+   
+               for (i = tamanho - 3; i = tamanho; i++) {
+   
+                   resultado += chars.charAt(Math.floor(Math.random() * chars.length));
+   
+               }
+   
+               return resultado;
+   
+           }
+       }
+   
+       */
+
+
+</script>
+
+</html>
