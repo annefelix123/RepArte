@@ -19,4 +19,6 @@
 </body>
 </html>
 
+<script
+
 <?php include '../back-end/signup.php'; ?>
