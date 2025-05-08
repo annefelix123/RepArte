@@ -18,48 +18,34 @@
         const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         let resultado = "";
 
-        for (let i = 0; i < tamanho; i++) 
-        {
+        for (let i = 0; i < tamanho; i++) {
 
             resultado += chars.charAt(Math.floor(Math.random() * chars.length));
-    
+
+            if (resultado.length == tamanho - 3) {
+
+                resultado += "-";
+
+            }
+
         }
 
-        if(resultado.length = tamanho){
+        if (resultado.length = tamanho + 1) {
 
             document.write(resultado)
         }
 
         return resultado;
 
+        const id = resultado;
+
     }
 
+     
 
 
 
-    /*       while (i < tamanho) {
-   
-               for (let i = 0; i = tamanho - 3; i++) {
-   
-   
-                   resultado += "-"
-   
-   
-               }
-   
-   
-               for (i = tamanho - 3; i = tamanho; i++) {
-   
-                   resultado += chars.charAt(Math.floor(Math.random() * chars.length));
-   
-               }
-   
-               return resultado;
-   
-           }
-       }
-   
-       */
+
 
 
 </script>
