@@ -1,6 +1,7 @@
-body{
-    background-color: blue;
+*{
+    height: 100%;
 }
-#botao1{
-    background-color: blueviolet;
+
+body{
+    background-image: linear-gradient(to top, #0b0c60 50%, #e66700 30, black 20%);
 }
