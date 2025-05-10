@@ -9,7 +9,7 @@
 }
 }
 body{
-    background-color: black;
+    background-image: url(../imagens/imagem_melhorada_1920x1080.png);
     height: 100vh;
 }
 
@@ -134,4 +134,66 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+section.sobre-nos{
+    padding: 40px 4%;
+}
+section.sobre-nos .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre-nos .txt-sobre{
+    color: white;
+}
+
+.sobre-nos .txt-sobre h2{
+    font-size: 60px;
+    font-family:"Hammersmith One", sans-serif;
+    color: #ee4300;
+    margin-bottom: 20px;
+}
+.sobre-nos .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Hammersmith One", sans-serif;
+}
+
+footer{
+    padding: 30px 4%;
+    background-color: #160b2e;
+    
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    
+}
+
+.borda{
+    border-top: 2px solid #fd4f0a;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #333062;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .1s;
+}
+footer .line-footer p a{
+    color: white;
+    align-items: center;
+    text-decoration: none;
+
 }
